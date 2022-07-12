@@ -192,7 +192,7 @@ export default function DimensionsPanel( { name } ) {
 							onDeselect={ resetContentSizeValue }
 							isShownByDefault={ true }
 						>
-							<Flex>
+							<Flex align="flex-end">
 								<FlexItem>
 									<UnitControl
 										label={ __( 'Content' ) }
@@ -222,7 +222,7 @@ export default function DimensionsPanel( { name } ) {
 							onDeselect={ resetWideSizeValue }
 							isShownByDefault={ true }
 						>
-							<Flex>
+							<Flex align="flex-end">
 								<FlexItem>
 									<UnitControl
 										label={ __( 'Wide' ) }
