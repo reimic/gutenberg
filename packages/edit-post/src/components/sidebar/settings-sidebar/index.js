@@ -16,8 +16,6 @@ import { store as interfaceStore } from '@wordpress/interface';
 import SettingsHeader from '../settings-header';
 import PostStatus from '../post-status';
 import PostTaxonomies from '../post-taxonomies';
-import FeaturedImage from '../featured-image';
-import PostExcerpt from '../post-excerpt';
 import DiscussionPanel from '../discussion-panel';
 import PageAttributes from '../page-attributes';
 import MetaBoxes from '../../meta-boxes';
@@ -85,8 +83,6 @@ const SettingsSidebar = () => {
 					<PostStatus />
 					<PluginDocumentSettingPanel.Slot />
 					<PostTaxonomies />
-					<FeaturedImage />
-					<PostExcerpt />
 					<DiscussionPanel />
 					<PageAttributes />
 					<MetaBoxes location="side" />

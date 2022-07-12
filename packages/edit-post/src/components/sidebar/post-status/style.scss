@@ -1,4 +1,7 @@
 .edit-post-post-status__header {
+	margin: (-$grid-unit-20) (-$grid-unit-20) 0 (-$grid-unit-20);
+	padding: $grid-unit-20;
+
 	.components-dropdown-menu {
 		line-height: 0;
 		margin: -$grid-unit-05 0;
@@ -8,6 +11,14 @@
 		min-width: $grid-unit-30;
 		padding: 0;
 	}
+
+	& + .components-panel__row {
+		margin-top: 5px;
+	}
+}
+
+[class].edit-post-post-status__header {
+	box-sizing: content-box;
 }
 
 [class].edit-post-post-status__heading {
@@ -24,8 +35,4 @@
 	justify-content: center;
 	min-height: $icon-size;
 	min-width: $icon-size;
-}
-
-[class].edit-post-post-status__post-trash {
-	box-shadow: none;
 }

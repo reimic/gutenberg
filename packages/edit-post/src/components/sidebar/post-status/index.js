@@ -8,6 +8,8 @@ import { useSelect } from '@wordpress/data';
  * Internal dependencies
  */
 import PostStatusHeader from './header';
+import PostFeaturedImage from '../post-featured-image';
+import PostSummary from '../post-summary';
 import PostVisibility from '../post-visibility';
 import PostSchedule from '../post-schedule';
 import PostAuthor from '../post-author';
@@ -43,6 +45,8 @@ export default function PostStatus() {
 				{ ( fills ) => (
 					<>
 						<PostStatusHeader />
+						<PostFeaturedImage />
+						<PostSummary />
 						<PostVisibility />
 						<PostSchedule />
 						<PostURL />
